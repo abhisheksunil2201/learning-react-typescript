@@ -1,10 +1,9 @@
 import './App.css';
-import { Container } from './components/Container';
-
+import { LoggedIn } from './components/state/LoggedIn';
 function App() {
   return (
     <div className="App">
-      <Container styles={{border: '1px solid black',padding:'1rem'}}/>
+      <LoggedIn />
     </div>
   );
 }
